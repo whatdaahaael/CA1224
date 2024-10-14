@@ -131,7 +131,7 @@ void fnPrintStudReport()
 	
 }
 
-// Printing Individual Student Report Card
+// PRINTING INDIVIDUAL CONSOLIDATED REPORT CARD
 void fnPrintIndReport()
 {
 	int i, j=-1, SearchNum;
