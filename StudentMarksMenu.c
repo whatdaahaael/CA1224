@@ -57,7 +57,7 @@ int main()
 	}
 }
 
-// INPUTING AND PROCESS[i]NG STUDENT DATA
+// INPUTING AND PROCESSING STUDENT DATA
 void fnInputStudentData()
 {
 	int i;
@@ -155,7 +155,8 @@ void fnPrintIndReport()
 		printf("Not Found\n");
 		return;
 	}
-	
+
+	system("cls");
 	printf("\n\nSt Joseph's University\n");
 	printf("\tMARKS CARD\t\n");
 	printf("RegNo:\t\t%d\n",S[j].RegNo);
