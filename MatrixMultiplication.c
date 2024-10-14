@@ -1,7 +1,7 @@
 /*----------------------------
-		  Student_Marks.c
-    			Sujan
-	      14.10.24
+	Matrix_Mult.c
+    	    Sujan
+	  14.10.24
 ----------------------------*/
 
 #include <stdio.h>
