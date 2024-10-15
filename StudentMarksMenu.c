@@ -77,7 +77,7 @@ void fnInputStudentData()
 		S[i].Total = S[i].M1 + S[i].M2 + S[i].M3;
 		S[i].Avg=(float)S[i].Total/3;
 		
-		if(S[i].M1>=35 && S[i].M2>=35 && S[i].M3>=35 && S[i].Avg>=40.0){ // CHANGED
+		if(S[i].M1>=35 && S[i].M2>=35 && S[i].M3>=35 && S[i].Avg>=40.0){
 			if(S[i].Avg>=80.0){
 				S[i].Result=0;
 			} else if(S[i].Avg>=60.0){
