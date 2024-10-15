@@ -101,7 +101,7 @@ void fnPrintStudReport()
 	int i;
 	system("cls");
 	
-	printf("\t\t\tST JOSEPHS UNIVERSITY\n");
+	printf("\n\n\t\tST JOSEPH'S UNIVERSITY\n");
 	printf("\t\tCONSOLIDATED STUDENT REPORT\n");
 	
 	printf(" RegNo\t| Name\t| C Prog| FC\t| Unix\t| Total\t| Avg\t| Result\n");
