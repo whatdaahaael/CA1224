@@ -102,7 +102,7 @@ void fnPrintStudReport()
 	system("cls");
 	
 	printf("\t\t\tST JOSEPHS UNIVERSITY\n");
-	printf("\t\tConsolidated Student Report\n");
+	printf("\t\tCONSOLIDATED STUDENT REPORT\n");
 	
 	printf(" RegNo\t| Name\t| C Prog| FC\t| Unix\t| Total\t| Avg\t| Result\n");
 	
@@ -131,7 +131,7 @@ void fnPrintStudReport()
 	
 }
 
-// PRINTING INDIVIDUAL STUDENT REPORT CARD
+// PRINTING INDIVIDUAL CONSOLIDATED REPORT CARD
 void fnPrintIndReport()
 {
 	int i, j=-1, SearchNum;
@@ -157,8 +157,8 @@ void fnPrintIndReport()
 	}
 
 	system("cls");
-	printf("\n\nSt Joseph's University\n");
-	printf("\tMARKS CARD\t\n");
+	printf("\n\n\t\tST JOSEPH'S UNIVERSITY\n");
+	printf("\t\t\tMARKS CARD\t\n");
 	printf("RegNo:\t\t%d\n",S[j].RegNo);
 	printf("Name:\t\t%s\n",S[j].Name);
 	printf("C Prog:\t\t%d\n",S[j].M1);
@@ -184,7 +184,9 @@ void fnPrintIndReport()
 
 // MENU OPTIONS
 void fnMenu(int *Choice){
-	printf("\n\nEnter choice:\n");
+	printf("\n\n\t\tST JOSEPH'S UNIVERSITY\n");
+	printf("\t\t\tMENU\n");
+	printf("Enter choice:\n");
 	printf("1. Input Student Data\n");
 	printf("2. Print Consolidated Marks Card\n");
 	printf("3. Print Individual Marks Card\n");
