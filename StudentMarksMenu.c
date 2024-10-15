@@ -52,7 +52,6 @@ int main()
 			defualt:
 					fnMenu(&Choice);
 					break;
-			
 		}
 	}
 }
@@ -125,10 +124,8 @@ void fnPrintStudReport()
 			case -1:
 					printf(" Fail\n");
 					break;
-			
 		}
 	}
-	
 }
 
 // PRINTING INDIVIDUAL CONSOLIDATED REPORT CARD
