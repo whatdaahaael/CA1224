@@ -42,11 +42,9 @@ int main()
 void InputMat(int N, int M, int A[10][10])
 {
 	int i,j;
-	int ctr=1;
 	for(i=1;i<=N;i++){
 		for(j=1;j<=M;j++){
-			A[i][j]=ctr;
-			ctr++;
+			scanf("%d",&A[i][j]);
 		}
 	}
 	
